@@ -4,12 +4,9 @@ $.ajax({
     url: queryURL,
     method: "GET"
 }).then(function(response) {
-        console.log("image is running");
-        console.log(response.Runtime);
+      
+    var imgURL= response.hdurl;
 
-        var imgURL= response.hdurl;
-
-        var image = $("<img>").attr("src", imgURL);
-
-        $(body).append(image);
-      });
+    document.body.style.backgroundImage = "url('"+imgURL+"')";
+    document.body.style.backgroundSize = "cover";
+});
