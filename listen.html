@@ -31,11 +31,54 @@
             <br>
             <div class="container animated fadeInUp" style="-webkit-animation-duration: 1.5s; -webkit-animation-delay: 1.5s">
                 <!-- Content here -->
-                
-                    <iframe src="https://open.spotify.com/embed/user/22s6o4n3pywjylw42ttz6tyhy/playlist/2F2M5iz1O3WPj9ne3Jehzr" width="500" height="1000" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                
+              <div class="row">    
+                <div class="col-12">
+                  <div  class="embed-responsive embed-responsive-1by1" id="musicWrapper">
+                    <iframe  src="https://open.spotify.com/embed/user/22s6o4n3pywjylw42ttz6tyhy/playlist/2F2M5iz1O3WPj9ne3Jehzr" width="500" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media" class="embed-responsive-item"></iframe>
+                  </div>
+                </div>
+              </div>    
             </div>
+            <br>
+            <h1 class="cover-heading">Do you feel better?</h1>
+            <br>
+            <p class="lead animated fadeIn" style="-webkit-animation-duration: 1.5;-webkit-animation-delay: 1.5s">
+              <a href="#" class="btn btn-lg btn-secondary" data-target="#modAuxi">YES</a>
+              <a href="#" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#modAuxi">No</a>
+            </p>
+            <br>
           </main>
+
+          <div class="modal fade" id="modAuxi" tabindex="-1" role="dialog" aria-labelledby="modAuxi" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header bg-white">
+                  <h5 class="modal-title text-dark" id="modAuxiTitle">How can I help?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-4">
+                        <button href="#" class="btn btn-lg btn-light">Just listen</button>
+                      </div>
+                      <div class="col-4">
+                        <button href="#" class="btn btn-lg btn-light">Just watch</button>
+                      </div>
+                      <div class="col-4">
+                        <button href="#" class="btn btn-lg btn-light">Just do</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer bg-white">
+                </div>
+              </div>
+            </div>
+        </div>
+
     
           <footer class="mastfoot mt-auto">
             <div class="inner text-center">

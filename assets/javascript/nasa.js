@@ -5,8 +5,9 @@ $.ajax({
     method: "GET"
 }).then(function(response) {
       
-    var imgURL= response.hdurl;
+    var imgURL= response.url;
+    console.log(imgURL);
 
-    document.body.style.backgroundImage = "url('"+imgURL+"')";
+    document.body.style.backgroundImage = "url('"+ imgURL +"')";
     document.body.style.backgroundSize = "cover";
 });
