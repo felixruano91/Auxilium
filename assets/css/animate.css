@@ -1667,6 +1667,31 @@
   animation-name: fadeOut;
 }
 
+@-webkit-keyframes halfFadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.3;
+  }
+}
+
+@keyframes halfFadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.3;
+  }
+}
+
+.halfFadeOut {
+  -webkit-animation-name: halfFadeOut;
+  animation-name: halfFadeOut;
+}
+
 @-webkit-keyframes fadeOutDown {
   from {
     opacity: 1;
