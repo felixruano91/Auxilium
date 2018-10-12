@@ -16,7 +16,7 @@
     <title>Auxilium - Just watch</title>
 </head>
 
-<body>
+<body class="text-center">
 
     <div class="container">
         <header class="masthead mb-auto animated fadeInLeft" style="-webkit-animation-duration: 1.5s">
@@ -25,11 +25,11 @@
                 <nav class="nav nav-masthead justify-content-center">
                 <a class="nav-link active" href="index.html">Home</a>
                 <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
                 </nav>
             </div>
         </header>
-        <br>
+        <br><br>
         <main role="main" class="inner cover text-center animated fadeInDown">
             <h1 class="cover-heading">just watch...</h1>
             <br>
@@ -46,10 +46,10 @@
                 <div class="row">
                     <div class="col-2"></div>
                     <div class="col-4">
-                        <button class="btn btn-lg btn-secondary" id="btnPrevious"><i class="fa fa-step-backward"></i> Previous</button>
+                        <button class="btn btn-md btn-secondary" id="btnPrevious"><i class="fa fa-step-backward"></i> Previous</button>
                     </div>
                     <div class="col-4">
-                        <button class="btn btn-lg btn-secondary" id="btnNext">Next <i class="fa fa-step-forward"></i></button>
+                        <button class="btn btn-md btn-secondary" id="btnNext">Next <i class="fa fa-step-forward"></i></button>
                     </div>
                     <div class="col-2"></div>
                 </div>
@@ -58,11 +58,17 @@
             <h1 class="cover-heading">Do you feel better?</h1>
             <br>
             <p class="lead animated fadeIn" style="-webkit-animation-duration: 1.5;-webkit-animation-delay: 1.5s">
-                <a href="#" class="btn btn-lg btn-secondary" data-target="#modAuxi">YES</a>
+                <a href="contact.html" class="btn btn-lg btn-secondary" data-target="#modAuxi">YES</a>
                 <a href="#" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#modAuxi">No</a>
             </p>
             <br>
         </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner text-center">
+                <p>Copyright © 2018 Auxilium</p>
+            </div>
+        </footer>
     </div>
 
     <div class="modal fade" id="modAuxi" tabindex="-1" role="dialog" aria-labelledby="modAuxi" aria-hidden="true">
